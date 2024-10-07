@@ -1,24 +1,27 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+User: {
+    Jugador: {
+        posición,
+        fecha de nacimiento,
+        lesiones,
+        colegio
+    }
+    Padre,
+    Entrenador {
+        es además Padre?school:
+    }
+    Coordinador {
+        es además Padre?
+    },
+    administrador {
+        bloqueado, para uno/dos que sea coordinador
+    }
+},
+Equipo/Club,
+Entrenamiento {
+    estuvo presente?
+},
+Partidos/Fixture anual {
+    quién jugo por fecha
+    resultados
+    quién hizo los tantos
+}

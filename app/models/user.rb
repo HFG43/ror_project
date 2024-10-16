@@ -8,4 +8,8 @@ class User < ApplicationRecord
          :jwt_authenticatable, jwt_revocation_strategy: self
 
   has_one :player
+  has_one :trainer
+
+  #TODO: add validation, only one_role
+  
 end

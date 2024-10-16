@@ -7,4 +7,10 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable,
          :jwt_authenticatable, jwt_revocation_strategy: self
 
+  has_one :player
+  has_one :trainer
+  has_one :parent
+
+  #TODO: add validation, only one_role
+
 end

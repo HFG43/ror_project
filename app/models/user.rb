@@ -9,7 +9,8 @@ class User < ApplicationRecord
 
   has_one :player
   has_one :trainer
+  has_one :parent
 
   #TODO: add validation, only one_role
-  
+
 end

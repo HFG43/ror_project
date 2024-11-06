@@ -3,6 +3,7 @@ REFERENCIA DE JWT: https://sdrmike.medium.com/rails-7-api-only-app-with-devise-a
 TODO: padres, entrenadores, coordinador, administrador
 Revisar has_one trhough para Club, por team
 https://medium.com/nerd-for-tech/rails-association-part-1-865c1373fb22
+Agregar Cache: memcache?
 
 Use of serialoizer: https://medium.com/@ryan.w.horowitz/a-comprehensive-guide-on-how-to-use-rails-serializer-f69f01017cd5
 

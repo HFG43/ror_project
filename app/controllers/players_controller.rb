@@ -14,7 +14,7 @@ class PlayersController < ApplicationController
     end
 
     def update
-        if @player.update(player_params) #Ver params
+        if @player.update(player_params)
           render json: @player
         else
           render json: @player.errors, status: :unprocessable_entity
@@ -31,7 +31,7 @@ class PlayersController < ApplicationController
     end
 
     def player_params
-        params.require(:player).permit(:position, :school, :birthdate, :club_id, :team_id) ##REVISAR PARAMS
+        params.require(:player).permit(:position, :school, :birthdate, :club_id, :team_id)
     end
 
     def record_not_found
